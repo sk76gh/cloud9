@@ -1,0 +1,69 @@
+<Response xmlns="urn:oasis:names:tc:SAML:2.0:protocol" Destination="https://mycfmportal.com/Shibboleth.sso/SAML2/POST" ID="_e1892a27ba6d51704a0834068ab293d52e0b" InResponseTo="_61b2ef1a76d414de137793a2024cd249" IssueInstant="2017-07-25T09:38:29Z" Version="2.0">
+    <ns1:Issuer xmlns:ns1="urn:oasis:names:tc:SAML:2.0:assertion" Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">CFM-SNECMA-IdP-OP</ns1:Issuer>
+    <Status>
+        <StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+    </Status>
+    <ns2:Assertion xmlns:ns2="urn:oasis:names:tc:SAML:2.0:assertion" ID="_25d00aaf00b9325fff20ea012bd297fa689b" IssueInstant="2017-07-25T09:38:29Z" Version="2.0">
+        <ns2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">CFM-SNECMA-IdP-OP</ns2:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#_25d00aaf00b9325fff20ea012bd297fa689b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>xowHHuBJjYkbvZWjduJ58u+eEK8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pdlX9yk8gHzJpGeACImsEQuGSNyKZTH2TUqsleym9cSzLTYQKZ8Lp3NNN+ZHXH3ROPitYrtGcCyhtntPRd1Cgcgd2rvFOBsfjO3jZGmNov2M3mtyIzrJVe96ig7SVRfvimyz0HzbcfIF+TRo510g5J0zJM30B2kiDWc9FSYgNr3I7lRBNW918ivOpzhcmI9NWQHRjuXnkxMOGgc+G57TlQ1/okLjiEvo5b8TRbfExYbjB+yq+LBUl2XszcoNo2VkwIhIG5mvP0L0+81elNhOZPN/JBDvxP6lgwH3rtQt0OnpHm9RZrPzuAYlfVBkCISUvT6xL3tUDEx1RjxviRlR3g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIE3TCCA8WgAwIBAgIQD8p+Z23thCQZEqwNwcNM/TANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQG
+EwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRy
+dXN0IE5ldHdvcmsxLzAtBgNVBAMTJlN5bWFudGVjIENsYXNzIDMgU2VjdXJlIFNlcnZlciBDQSAt
+IEc0MB4XDTE1MTExMjAwMDAwMFoXDTE3MTExMjIzNTk1OVowbDELMAkGA1UEBhMCRlIxDjAMBgNV
+BAgMBVBBUklTMQ4wDAYDVQQHDAVQQVJJUzEPMA0GA1UECgwGU0FGUkFOMQ8wDQYDVQQLDAZTTkVD
+TUExGzAZBgNVBAMMEnNhbWxpZHAuc25lY21hLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAObd5ik210Hw/krmr4mq5wJTLFKIn6NiscvLiNWrjUjSuZeTAk3eem5FBulZV9XoJkcB
+mm9XOoXaM8/v4VVTtyXhWWA/+IbkD3/RbWauygfvnylKnbga4HcO/H8UiIUJGCwQnJOr+07hSbO0
+xaSnWxecrBgI+548ya55wC5P/ZKfTR578O7NFInY2GhuUJU1fPMZhNMS9iTyakEvlDdhc0Nx1jnm
+LKK6e1j/Ff6wf48lOP4IoREWQckL44uoda/Um7uzBLmYlNTAH7Sy99nKq+cUhasiVOjBO4WQLxIf
+XmsvjNbqzqJjTTgTEkG9XL3rYGHEtCUN0yxYbveiCYJ1vuUCAwEAAaOCAWcwggFjMB0GA1UdEQQW
+MBSCEnNhbWxpZHAuc25lY21hLmNvbTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUE
+FjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwYQYDVR0gBFowWDBWBgZngQwBAgIwTDAjBggrBgEFBQcC
+ARYXaHR0cHM6Ly9kLnN5bWNiLmNvbS9jcHMwJQYIKwYBBQUHAgIwGRoXaHR0cHM6Ly9kLnN5bWNi
+LmNvbS9ycGEwHwYDVR0jBBgwFoAUX2DPYZBV34RDFIpgKrL1evRDGO8wKwYDVR0fBCQwIjAgoB6g
+HIYaaHR0cDovL3NzLnN5bWNiLmNvbS9zcy5jcmwwVwYIKwYBBQUHAQEESzBJMB8GCCsGAQUFBzAB
+hhNodHRwOi8vc3Muc3ltY2QuY29tMCYGCCsGAQUFBzAChhpodHRwOi8vc3Muc3ltY2IuY29tL3Nz
+LmNydDANBgkqhkiG9w0BAQsFAAOCAQEATOsmmO0rrUmBjjOlzzuHtYXtkWXprAxZL+eLaHLYyuqP
++/fddtruCMFFP/+LScwC+5e5Dh0whhLW/SiYZwPfQVugUki3Pi57n8XjdtC8/qbhYbpqwaXyR6uU
+tA2vCAQ7yecPmE4QJjuznLY/YYQLbSDNNcOIPXb32egFglbSIqKfcipG0WJ4s3a18/793VwUFMZY
+gZkzOxjLMtKu6fKQ1xdhqBGQYBNT9nF11S64gZ+abiaa8jVengbdso2RgKvZhxw07luWsdDdZs8e
+gw1SxEqPI75Ef6t7skr5Id5LTE0mSxgyEyKc7cB/uqdn6P38ytHLxO00BD0FxrtAJVBuWA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+        <ns2:Subject>
+            <ns2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">800032068</ns2:NameID>
+            <ns2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <ns2:SubjectConfirmationData InResponseTo="_61b2ef1a76d414de137793a2024cd249" NotOnOrAfter="2017-07-25T09:39:59Z" Recipient="https://mycfmportal.com/Shibboleth.sso/SAML2/POST"/>
+            </ns2:SubjectConfirmation>
+        </ns2:Subject>
+        <ns2:Conditions NotBefore="2017-07-25T09:37:59Z" NotOnOrAfter="2017-07-25T09:39:59Z">
+            <ns2:AudienceRestriction>
+                <ns2:Audience>dss-mygea-cfm-prod</ns2:Audience>
+            </ns2:AudienceRestriction>
+        </ns2:Conditions>
+        <ns2:AuthnStatement AuthnInstant="2017-07-25T09:38:27Z" SessionIndex="pjlonIty0vEcbPZ2/xO6OJeNCew=VM4hyQ==">
+            <ns2:AuthnContext>
+                <ns2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</ns2:AuthnContextClassRef>
+            </ns2:AuthnContext>
+        </ns2:AuthnStatement>
+    </ns2:Assertion>
+</Response>

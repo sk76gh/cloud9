@@ -1,0 +1,67 @@
+<samlp:Response Version="2.0" ID="_SZme43pAe9KIA.b-lf9pLOpclq" IssueInstant="2017-07-25T09:15:34.724Z" InResponseTo="_9c6e9de5566cd3e08468fa2cc840f52a" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"><saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">gefssprd</saml:Issuer><samlp:Status><samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/></samlp:Status>
+<saml:Assertion ID="aLdmlqV3sHadQ7_ZocjjyQIUHWB" IssueInstant="2017-07-25T09:15:34.789Z" Version="2.0" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"><saml:Issuer>gefssprd</saml:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#aLdmlqV3sHadQ7_ZocjjyQIUHWB">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Yd/nX+ZtzPnwqaVqZQsopPDQQMY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fDGvYHb6z/Ux0IYCYRt0aCtIBTRmszLpK9ZzrkQsDzzG5sVewaHh8mZIFReCJ7dD2rSxXX/6hx+/
+MqbUvxi27BeVbzTS9cZPqS+G7pYjpmFSaeVjpwJ72iRDJ3K/AVSqzJDYuU0FPkLkgqOhgxdGC1oM
+8qUG+Qc5dlgjFPVKsZ3DDLur13qRf4CRviuPSEARgKyPqXrXoC4azOV/+p7VgjFrz1NqBN4vacP9
+iNUZ20Jl+ewYrqiNrKYqyzTRUyX9wlKo9I0UUO7hi0Yj7VjoucAiPgRG9TEtRPlpzh8KLL+fnVCL
+y7Zd9tqBl0OPnUNpIVKNxsrKtwCERx0CGLhLQg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIF0jCCBLqgAwIBAgIQQ1o/lFE0WjjMkuXclNXkIzANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UE
+BhMCVVMxCzAJBgNVBAgTAkRFMRMwEQYDVQQHEwpXaWxtaW5ndG9uMSQwIgYDVQQKExtDb3Jwb3Jh
+dGlvbiBTZXJ2aWNlIENvbXBhbnkxLzAtBgNVBAMTJlRydXN0ZWQgU2VjdXJlIENlcnRpZmljYXRl
+IEF1dGhvcml0eSA1MB4XDTE2MTAwNjAwMDAwMFoXDTE5MTAwNjIzNTk1OVowgeQxCzAJBgNVBAYT
+AlVTMQ4wDAYDVQQREwUwNjgyODELMAkGA1UECBMCQ1QxEjAQBgNVBAcTCUZhaXJmaWVsZDEdMBsG
+A1UECRMUMzEzNSBFYXN0b24gVHVybnBpa2UxITAfBgNVBAoTGEdlbmVyYWwgRWxlY3RyaWMgQ29t
+cGFueTEtMCsGA1UECxMkUHJvdmlkZWQgYnkgR2VuZXJhbCBFbGVjdHJpYyBDb21wYW55MRcwFQYD
+VQQLEw5FbnRlcnByaXNlIFNTTDEaMBgGA1UEAxMRZnNzLmdlY29tcGFueS5jb20wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDlBHUDmBJ411lLFHyrdqAop9ET1vkG0iBeeRqxunElCixS
+MVbEtAxTreppVgr9R0iDxAw0PifmK0i0w8zrD7MzlNzLmUbQ5fpaxzHO0/RGFA1QhqwlwWYpntyw
+7l4s2/NoRT7Ip/WIlMe4poL4lYFg2vL+rZezEY82etgB/u1OF7Lp9W3KWWQtke+UVDjuUcYaaVYY
+iNAY/mmmhmqvcMDmYtoCyoeJk/nd/zwYLlpb9A6RA5sLuT2Ly4Q8gYJ8lGbxAlmPrrTmwgq8DHDr
+WthYeyN8PPeuy7AbiEkYHO9IQX/zQzQHy8IlDw4Iua7yJpzDihkyRajIzMBo2Cd2YKqtAgMBAAGj
+ggHaMIIB1jAfBgNVHSMEGDAWgBTyu1Xu/I/P0D8UaBqVfnkOqxcw9DAdBgNVHQ4EFgQUrY6TGHXz
+6LuX6eny3Ie6ulMOr5owDgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYI
+KwYBBQUHAwEGCCsGAQUFBwMCMEsGA1UdIAREMEIwNgYLKwYBBAGyMQECAggwJzAlBggrBgEFBQcC
+ARYZaHR0cHM6Ly9jcHMudXNlcnRydXN0LmNvbTAIBgZngQwBAgIwUAYDVR0fBEkwRzBFoEOgQYY/
+aHR0cDovL2NybC51c2VydHJ1c3QuY29tL1RydXN0ZWRTZWN1cmVDZXJ0aWZpY2F0ZUF1dGhvcml0
+eTUuY3JsMIGCBggrBgEFBQcBAQR2MHQwSwYIKwYBBQUHMAKGP2h0dHA6Ly9jcnQudXNlcnRydXN0
+LmNvbS9UcnVzdGVkU2VjdXJlQ2VydGlmaWNhdGVBdXRob3JpdHk1LmNydDAlBggrBgEFBQcwAYYZ
+aHR0cDovL29jc3AudXNlcnRydXN0LmNvbTAzBgNVHREELDAqghFmc3MuZ2Vjb21wYW55LmNvbYIV
+d3d3LmZzcy5nZWNvbXBhbnkuY29tMA0GCSqGSIb3DQEBCwUAA4IBAQAq679gtYsk62uc2eX1EV43
+kxA3hwWRnxjJLzMC6jT0u4KD9EHQeimVRiAjZh/KnlakBJSrK1OT/5wS8r6ni5UCpXsCkPNDH7wb
+bBMhvg0EE6L/nF3RB0VM1co/atRizA+5lstEXYFDwdT5nrZzlYNTK1V4lZDXaDy0Ti3qd3f3V8cM
+AlKu2kgGa5OmZiFnx1icyQgnhkHhFai64vKjq1SJ/d7iSt7BPbyYwkjcIMBFIh/6Tj3aHiVDdRdm
++fX+BZn//Lb0+KdoGTFdP3wD/e8q2fipFfcy395uQLgsqRkZ7eha7sfGcdzJc83xhb4Tj3b/KNG1
+HSVC5JgFiTSGZJp6
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+5QR1A5gSeNdZSxR8q3agKKfRE9b5BtIgXnkasbpxJQosUjFWxLQMU63qaVYK/UdIg8QMND4n5itI
+tMPM6w+zM5Tcy5lG0OX6WscxztP0RhQNUIasJcFmKZ7csO5eLNvzaEU+yKf1iJTHuKaC+JWBYNry
+/q2XsxGPNnrYAf7tThey6fVtyllkLZHvlFQ47lHGGmlWGIjQGP5ppoZqr3DA5mLaAsqHiZP53f88
+GC5aW/QOkQObC7k9i8uEPIGCfJRm8QJZj6605sIKvAxw61rYWHsjfDz3rsuwG4hJGBzvSEF/80M0
+B8vCJQ8OCLmu8iacw4oZMkWoyMzAaNgndmCqrQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature><saml:Subject><saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">307003405</saml:NameID><saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer"><saml:SubjectConfirmationData Recipient="https://my.geaviation.com/Shibboleth.sso/SAML2/POST" NotOnOrAfter="2017-07-25T09:20:34.789Z" InResponseTo="_9c6e9de5566cd3e08468fa2cc840f52a"/></saml:SubjectConfirmation></saml:Subject><saml:Conditions NotBefore="2017-07-25T09:10:34.789Z" NotOnOrAfter="2017-07-25T09:20:34.789Z"><saml:AudienceRestriction><saml:Audience>dss-mygea-portal-prod</saml:Audience></saml:AudienceRestriction></saml:Conditions><saml:AuthnStatement SessionIndex="aLdmlqV3sHadQ7_ZocjjyQIUHWB" AuthnInstant="2017-07-25T09:15:34.788Z"><saml:AuthnContext><saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef></saml:AuthnContext></saml:AuthnStatement><saml:AttributeStatement><saml:Attribute Name="uid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">307003405</saml:AttributeValue></saml:Attribute><saml:Attribute Name="firstname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Saravana</saml:AttributeValue></saml:Attribute><saml:Attribute Name="gehrbusinesssegment" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Digital Technology</saml:AttributeValue></saml:Attribute><saml:Attribute Name="gehrindustrygroup" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GE Digital</saml:AttributeValue></saml:Attribute><saml:Attribute Name="gessobusinessunit" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DIG TECH-Aviation</saml:AttributeValue></saml:Attribute><saml:Attribute Name="cn" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Kumar, Saravana</saml:AttributeValue></saml:Attribute><saml:Attribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Saravana.Kumar2@ge.com</saml:AttributeValue></saml:Attribute><saml:Attribute Name="lastname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Kumar</saml:AttributeValue></saml:Attribute></saml:AttributeStatement></saml:Assertion></samlp:Response>
